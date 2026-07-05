@@ -1,14 +1,100 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>야구 기록장</title>
-    <script type="module" crossorigin src="/assets/index-DV4mqb_J.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DvAVbMMu.css">
+    <title>jepo5558</title>
+    <meta
+      name="description"
+      content="Main page for jepo5558, with a link to the baseball tracker."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f6f7f9;
+        color: #111827;
+      }
+
+      main {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .panel {
+        width: min(100%, 520px);
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 28px;
+        box-sizing: border-box;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 13px;
+        color: #6b7280;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 34px;
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 12px 0 0;
+        line-height: 1.6;
+        color: #374151;
+      }
+
+      .actions {
+        margin-top: 24px;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .primary {
+        background: #111827;
+        color: white;
+      }
+
+      .secondary {
+        border: 1px solid #d1d5db;
+        color: #111827;
+        background: #fff;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script src="/app-config.js"></script>
+    <main>
+      <section class="panel">
+        <p class="eyebrow">jepo5558.github.io</p>
+        <h1>Main Page</h1>
+        <p>The baseball tracker is available at <strong>/baseball/</strong>.</p>
+        <div class="actions">
+          <a class="primary" href="/baseball/">Open Baseball Tracker</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
