@@ -1,46 +1,88 @@
 ﻿<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ShadowSync Downloads</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fb; color: #111827; }
-    main { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
-    h1 { margin: 0 0 8px; font-size: 28px; }
-    p { margin: 0 0 16px; color: #4b5563; }
-    .card { background: #ffffff; border: 1px solid #dbe1ea; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
-    .row { display: flex; justify-content: space-between; gap: 16px; align-items: center; flex-wrap: wrap; }
-    .name { font-weight: 600; }
-    .meta { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .button { display: inline-block; background: #2563eb; color: #ffffff; text-decoration: none; padding: 10px 14px; border-radius: 8px; font-weight: 600; }
-    ul { margin: 12px 0 0 18px; color: #374151; }
-    li { margin: 6px 0; }
-    code { background: #eef2ff; padding: 1px 5px; border-radius: 4px; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>ShadowSync APK Downloads</h1>
-    <p>Latest debug build for manual installation.</p>
-    <section class="card">
-      <div class="row">
-        <div>
-          <div class="name">ShadowSync-debug-v0.8.0.apk</div>
-          <div class="meta">Updated 2026-07-11 | versionName 0.8.0 | versionCode 8</div>
-        </div>
-        <a class="button" href="https://raw.githubusercontent.com/jepo5558/jepo5558.github.io/main/plan/downloads/ShadowSync-debug-v0.8.0.apk">Download APK</a>
-      </div>
-    </section>
-    <section class="card">
-      <div class="name">Visible checks in this build</div>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShadowSync APK Download</title>
+    <style>
+      body {
+        background: #f6f7f9;
+        color: #20242a;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        margin: 0;
+        padding: 32px 18px;
+      }
+
+      main {
+        background: #fff;
+        border: 1px solid #d9dee5;
+        border-radius: 8px;
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 0 0 12px;
+      }
+
+      p {
+        line-height: 1.55;
+      }
+
+      a.button {
+        background: #176b5b;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-block;
+        font-weight: 700;
+        margin-top: 12px;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+
+      .note {
+        color: #66717f;
+        font-size: 14px;
+        margin-top: 18px;
+      }
+
+      ul {
+        margin: 12px 0 0 18px;
+        padding: 0;
+      }
+
+      li {
+        margin: 6px 0;
+      }
+
+      code {
+        background: #eef2ff;
+        border-radius: 4px;
+        padding: 1px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ShadowSync APK</h1>
+      <p>아래 버튼으로 항상 최신 debug APK를 다운로드합니다.</p>
+      <a class="button" href="./shadowsync-debug.apk" download>최신 APK 다운로드</a>
+      <p class="note">
+        현재 배포본: <code>versionName 0.8.0</code>, <code>versionCode 8</code>
+      </p>
       <ul>
-        <li>The controller area stays visible while the script list scrolls.</li>
-        <li>The <code>Script</code> header now shows <code>All</code> and <code>None</code> buttons.</li>
-        <li>When a lesson opens, all script items are selected by default.</li>
-        <li>Loop replay was adjusted for the final script selection case.</li>
+        <li>스크립트 리스트를 스크롤해도 컨트롤러 영역이 유지됩니다.</li>
+        <li><code>Script</code> 헤더에 <code>All</code>, <code>None</code> 버튼이 있습니다.</li>
+        <li>기본값은 전체 선택입니다.</li>
+        <li>마지막 스크립트만 선택한 경우의 반복 재생 이슈를 보정했습니다.</li>
       </ul>
-    </section>
-  </main>
-</body>
+      <p class="note">
+        설치할 때 Android가 "알 수 없는 앱 설치" 권한을 요청할 수 있습니다. 이 APK는 개발용 debug 빌드입니다.
+      </p>
+    </main>
+  </body>
 </html>
