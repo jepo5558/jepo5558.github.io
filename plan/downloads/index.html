@@ -6,14 +6,17 @@
   <title>ShadowSync Downloads</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fb; color: #111827; }
-    main { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
     h1 { margin: 0 0 8px; font-size: 28px; }
     p { margin: 0 0 16px; color: #4b5563; }
-    .card { background: #ffffff; border: 1px solid #dbe1ea; border-radius: 10px; padding: 20px; }
+    .card { background: #ffffff; border: 1px solid #dbe1ea; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
     .row { display: flex; justify-content: space-between; gap: 16px; align-items: center; flex-wrap: wrap; }
     .name { font-weight: 600; }
     .meta { font-size: 14px; color: #6b7280; margin-top: 4px; }
     .button { display: inline-block; background: #2563eb; color: #ffffff; text-decoration: none; padding: 10px 14px; border-radius: 8px; font-weight: 600; }
+    ul { margin: 12px 0 0 18px; color: #374151; }
+    li { margin: 6px 0; }
+    code { background: #eef2ff; padding: 1px 5px; border-radius: 4px; }
   </style>
 </head>
 <body>
@@ -23,13 +26,21 @@
     <section class="card">
       <div class="row">
         <div>
-          <div class="name">ShadowSync-debug.apk</div>
-          <div class="meta">Updated 2026-07-11</div>
+          <div class="name">ShadowSync-debug-v0.8.0.apk</div>
+          <div class="meta">Updated 2026-07-11 | versionName 0.8.0 | versionCode 8</div>
         </div>
-        <a class="button" href="https://raw.githubusercontent.com/jepo5558/jepo5558.github.io/main/plan/downloads/ShadowSync-debug.apk">Download APK</a>
+        <a class="button" href="https://raw.githubusercontent.com/jepo5558/jepo5558.github.io/main/plan/downloads/ShadowSync-debug-v0.8.0.apk">Download APK</a>
       </div>
+    </section>
+    <section class="card">
+      <div class="name">Visible checks in this build</div>
+      <ul>
+        <li>The controller area stays visible while the script list scrolls.</li>
+        <li>The <code>Script</code> header now shows <code>All</code> and <code>None</code> buttons.</li>
+        <li>When a lesson opens, all script items are selected by default.</li>
+        <li>Loop replay was adjusted for the final script selection case.</li>
+      </ul>
     </section>
   </main>
 </body>
 </html>
-
